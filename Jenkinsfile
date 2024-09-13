@@ -8,5 +8,11 @@ date'''
       }
     }
 
+    stage('test') {
+      steps {
+        sleep 13
+      }
+    }
+
   }
 }
